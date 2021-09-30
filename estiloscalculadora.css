@@ -1,0 +1,40 @@
+h3 {
+  color:tomato;
+}
+p {
+  color:yellow;
+}
+form {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  border: solid 1px #73ff00;
+  padding-bottom: 30px;
+  margin: auto;
+  background: #00000077;
+}
+input[type=textfield] {
+  width: 75%;
+  padding: 16px 32px;
+  font-size: 16px;
+  margin: 8px 0;
+  border: 1px solid rgb(26, 255, 5);
+  border-radius: 10px;
+  text-align: left;
+  color: rgb(53, 0, 247);
+  background: rgb(255, 255, 255);
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: rgb(85, 58, 58);
+  border:rgb(199, 0, 0);
+  color: rgb(49, 75, 9);
+  padding: 16px 32px;
+  font-size: 16px;
+  min-width: 21%;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: rgb(255, 0, 0);
+}
